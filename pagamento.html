@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="fundo">
+    <div class="container">
+        <section class="titulo">
+            <h2>PAGAMENTO</h2>
+        </section>
+
+        <form id= "form" class="form">
+            <div class=" form-content">
+                <label for="txtData">Data do pagamento</label>
+                <input type="date"
+                placeholder="Digite a data do pagamento">
+            </div>
+
+            <div class=" form-content">
+                <label for="textPagamento">Metodo do pagamento</label>
+                <select id="pagamneto" required>
+                    <option class="metodo" value="">Digite o metodo do pagamento</option>
+                    <option value="C">Cartão de crédito</option>
+                    <option value="B">Boleto</option>
+                    <option value="P">Pix</option>
+                    <option value="D">Cartão de débito</option>
+                    <option value="T">Transferência Bancária</option>
+                </select>
+            </div>
+
+            <button type="submit">CONFIRMAR</button>
+        </form>
+    </div>
+
+    <footer class="footert a">
+        <p><a href="index.html">Voltar para a Página Inicial</a></p>
+    </footer>
+    
+</body>
+</html>

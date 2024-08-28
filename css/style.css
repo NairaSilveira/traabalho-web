@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.principal{
+    padding: 20px 130px;
+    border-bottom: solid 4px #be4559; /* solid é uma linha só e reta*/
+    margin-top: 10px;
+    
+
+}
+nav{
+    padding: 5px 65px;
+}
+
+/*Barra de pesquisa */
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+    
+    border-radius: 14px; /* Torna o botão redondo */
+    padding: 10px 50px; /* Ajuste o tamanho do botão */
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 0 5px 5px 0;
+    background-color: #be4559;
+    color: white;
+    font-size: 16px;
+
+    border-radius: 14px; /* Torna o botão redondo */
+    padding: 10px 30px; /* Ajuste o tamanho do botão */
+    font-size: 16px;
+   
+   
+}
+
+.search-button:hover {
+    background-color: #d37686;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 50px;
+    padding: 10px 63px;
+    height: 35px;
+    
+   
+
+}
+.logo img{
+    width: 200px; /*tamanho*/
+
+    position: absolute;
+    left: 0; /* Posiciona a imagem no lado esquerdo */
+    top: 0; /* Ajusta a posição vertical se necessário */
+    margin: 5px; /* Espaço ao redor da imagem */
+   
+}
+.menu li a:hover {
+    background-color: #d37686;
+
+  
+}
+.menu{
+    justify-content: space-between; 
+    display: flex;
+    list-style: none; /*remover marcadores da lista, os  pontinhos*/
+    width: 400px;
+    
+    margin-top: 30px;
+    
+
+}
+.menu li a{
+    text-decoration: none; /*Remove qualquer decoração, usado para remover o sublinhado padrão de links.*/
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #be4559;
+    padding: 5px 20px; 
+    border-radius: 10px; /*é usada para criar bordas arredondadas em um elemento. */
+    border: solid 3px #be4559; /*borda transparente */
+    margin: 0 5px;
+
+   
+}
+
+
+.vitrine{
+    padding: 10px 63px;
+    display: flex; /*distribuir elementos */
+    justify-content: space-between;
+}
+
+.item{
+    width: 20%;
+    padding: 10px;
+    
+}
+
+.item img{
+    width: 100%;
+    border: 2px solid  rgba(0,0, 0, 0); /* Define uma borda */
+    border-radius: 9px; /* Arredonda as bordas */
+    
+}
+
+.nome{
+    font-size: 20px;
+    font-weight: bold;
+    
+   
+}
+
+.preco{
+    font-size: 15px;
+    font-weight: 600px;
+   
+
+}
+
+/*tabela */
+
+.fundo{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/fundo.png);
+    background-size: cover; /*para definir o tamanho das imagens de fundo*/
+    
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+}
+
+.titulo{
+    background: #be4559;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.form{
+    padding: 18px;
+}
+.form a{
+    background-color:#be4559 ;
+    color: #fff;
+    border-radius: 14px;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    left: 0;
+   
+    
+}
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.form-content textarea{
+    display: block;
+    width: 500px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #565353;
+
+}
+.form-content label{
+    margin-bottom: 4px;
+}
+
+.form-content input{
+    display: block;
+    width: 500px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #000;
+    
+}
+
+.form button{
+    background-color:#be4559 ;
+    color: #fff;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 14px;
+
+}
+
+.form button:hover{ 
+    background-color: #d37686;
+}
+.form a:hover{
+    background-color: #d37686;
+}
+.footert a{
+    background-color:#be4559 ;
+    color: #fff;
+    border-radius: 14px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 14px;
+    text-decoration: none;
+
+}
+.footert :hover{ 
+    background-color: #d37686;
+}
+
+.footer{
+    background-color: #be4559;
+    text-align: center;
+    padding: 10px 0; 
+   
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+   
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/*Propriedade */
+
+.vitrine{
+    padding: 10px 63px;
+    display: flex;/*distribuir elementos */
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha de baixo */
+    
+}
+
+.item{
+    width: 20%;
+    padding: 10px;
+    
+
+}
+.reserva{
+    background-color: #be4559;
+    border-radius: 14px;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin-top: 5px;
+    display: inline-block;
+   
+}
+
+.topo-p{
+    background-color:  #be4559;
+    color: #fff;
+    padding: 15px;
+    
+}
+/*Rodapé*/
+
+
+.footer-tudo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    background-color: #d37686;
+    
+}
+.footer-rodape h3 {
+    margin-top: 10px;
+}
+
+.footer-rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-rodape ul li {
+    margin-bottom: 10px;
+}
+
+.footer-rodape ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-rodape ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.link-rede {
+    width: 40px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+ 
+}
